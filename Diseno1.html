@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Comida - Delicious Food</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="mobile-screen">
+        
+        <header class="header">
+            <div class="icon-menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="15" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </div>
+            <div class="cart-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            </div>
+        </header>
+
+        <div class="hero-text">
+            <h1>Delicious Food</h1>
+            <p>We made fresh and healthy food</p>
+        </div>
+
+        <nav class="categories">
+            <div class="cat-box">🍔</div>
+            <div class="cat-box">🍨</div>
+            <div class="cat-box">🍺</div>
+            <div class="cat-box active">🥗</div>
+        </nav>
+
+        <div class="food-grid">
+            <div class="food-card">
+                <img src="./img/F1.jpeg" class="plate-img" alt="Ramen">
+                <h3>Crab Ramen</h3>
+                <p>Spicy with garlic</p>
+                <div class="card-footer">
+                    <span class="price">$24.00</span>
+                    <span class="heart">♡</span>
+                </div>
+            </div>
+
+            <div class="food-card">
+             <img src="./img/f2.jpeg" class="plate-img" alt="Chicken">
+                <h3>Chicken Slice</h3>
+                <p>Real chicken</p>
+                <div class="card-footer">
+                    <span class="price">$12.00</span>
+                    <span class="heart">♡</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured-row">
+           
+           <img src="./img/f3.jpeg" class="plate-img" alt="Eggs Curry">
+                <h3>Eggs Curry</h3>
+                <p>Eggs to tomato and sauce</p>
+                <span class="price">$15.00</span>
+            </div>
+            <div class="plate-img img-eggs-small"></div>
+        </div>
+
+        <div class="bottom-bar">
+            <span>🏠</span>
+            <span>👛</span>
+            <span>💬</span>
+            <span>👤</span>
+        </div>
+    </div>
+
+
+    
+    <div class="mobile-screen">
+        
+        <header class="header">
+            <div class="icon-back">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </div>
+            <div class="icon-more">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+            </div>
+        </header>
+
+        <div class="big-plate-container">
+            <div class="big-plate-img"></div>
+            <div class="leaf leaf-1">🍃</div>
+            <div class="leaf leaf-2">🌿</div>
+        </div>
+
+        <div class="detail-content">
+            <div class="title-row">
+                <h2>Eggs Curry</h2>
+                <div class="timer">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#888" stroke-width="2" style="margin-right:5px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> 
+                    25 Mins
+                </div>
+            </div>
+
+            <p class="description">
+                Eggs Curry with tomato and cucumbers our chefs special healthy and fat free dish for those who want to lose weight.
+            </p>
+
+            <div class="total-price-section">
+                <div>
+                    <p style="color:#888; font-size:12px;">Total Price</p>
+                    <span class="big-price">$ 15.00</span>
+                </div>
+                <button class="btn-fav">♡</button>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn-add">
+                    Add to Cart 
+                    <span class="plus-icon">+</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
